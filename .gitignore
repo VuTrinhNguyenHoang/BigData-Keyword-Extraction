@@ -1,2 +1,4 @@
 venv
 services/backend/data/
+.vscode
+*.pyc
