@@ -1,0 +1,14 @@
+pandas>=2.0
+pyarrow>=10,<17
+arxiv==2.*
+scikit-learn>=1.4
+networkx>=3.2
+nltk>=3.8
+gensim>=4.3
+PyYAML>=6.0
+matplotlib>=3.8
+seaborn>=0.13
+yake
+keybert
+sentence-transformers
+wordcloud
