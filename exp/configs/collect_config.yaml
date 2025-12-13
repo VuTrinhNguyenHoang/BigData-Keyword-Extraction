@@ -4,5 +4,5 @@ max_per_year: 500
 per_page: 200
 sleep_sec: 3.0
 paths:
-  raw: "../services/backend/data/raw"
+  raw: "/opt/data/raw"
 

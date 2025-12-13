@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: ./exp
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./exp:/opt/exp
+      - ./services/backend/data:/opt/data
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    environment:
+      - NB_UID=${HOST_UID:-1000}
+      - NB_GID=${HOST_GID:-1000}
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
