@@ -7,7 +7,8 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Keyword Extraction",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="auto"
 )
 
 st.title("Keyword Extraction")
